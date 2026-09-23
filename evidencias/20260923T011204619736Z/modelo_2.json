@@ -1,0 +1,16 @@
+{
+  "modelo_solicitado": "google/gemma-4-31b-it:free",
+  "inicio_utc": "2026-09-23T01:12:06.439533+00:00",
+  "prompt_sha256": "6a68fef07e144ef13fe8b29b2efffeab1ef5a86a4313352259ae9e7b18912ef4",
+  "parametros": {
+    "temperature": 0,
+    "max_tokens": 1200
+  },
+  "tentativas": 1,
+  "categoria_erro": "limite_ou_capacidade",
+  "status": "erro_http",
+  "http_status": 429,
+  "retry_after": null,
+  "latencia_s": 0.313,
+  "fim_utc": "2026-09-23T01:12:06.752736+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "python": "3.12.7",
+  "pacotes": {
+    "openai": "2.54.0",
+    "requests": "2.34.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0"
+  }
+}

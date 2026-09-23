@@ -1,0 +1,13 @@
+{
+  "prompt": "Responda em português, com no máximo 180 palavras, nas seções RAG, Solução e Limitação.\nExplique brevemente o que é RAG. Depois, responda ao caso usando somente os documentos abaixo, citando [D1] e [D2] quando usar suas informações. Não invente políticas ausentes.\n[D1] A loja fictícia aceita troca de produtos até 30 dias após a compra, mediante comprovante. O documento não informa prazo de reembolso.\n[D2] A equipe tem 120 minutos disponíveis. Cada diagnóstico leva 15 minutos. Há 6 produtos para diagnosticar, atendidos sequencialmente.\nCaso: uma compra foi feita há 20 dias e tem comprovante. Ela atende às condições de troca? Quanto tempo levam os 6 diagnósticos e cabem no tempo disponível? Qual é o prazo de reembolso?",
+  "sha256": "6a68fef07e144ef13fe8b29b2efffeab1ef5a86a4313352259ae9e7b18912ef4",
+  "parametros": {
+    "temperature": 0,
+    "max_tokens": 1200
+  },
+  "modelos": [
+    "liquid/lfm-2.5-2.6b:free",
+    "nvidia/nemotron-3.5-lightning:free"
+  ],
+  "amostras_por_modelo": 1
+}

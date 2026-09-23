@@ -1,0 +1,46 @@
+{
+  "modelo_solicitado": "liquid/lfm-2.5-2.6b:free",
+  "inicio_utc": "2026-09-23T01:18:40.496927+00:00",
+  "prompt_sha256": "6a68fef07e144ef13fe8b29b2efffeab1ef5a86a4313352259ae9e7b18912ef4",
+  "parametros": {
+    "temperature": 0,
+    "max_tokens": 4096
+  },
+  "tentativas": 2,
+  "espera_antes_retentativa_s": 35,
+  "registro_anterior": "modelo_1.json",
+  "http_status": 200,
+  "id_resposta": "gen-1790126321-2XtGbsImjvpp2z83dWGc",
+  "modelo_retornado": "liquid/lfm-2.5-2.6b:free",
+  "provedor": "Liquid",
+  "finish_reason": "stop",
+  "uso": {
+    "completion_tokens": 1894,
+    "prompt_tokens": 208,
+    "total_tokens": 2102,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1681,
+      "rejected_prediction_tokens": null,
+      "image_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 0,
+      "cached_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost": 0,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0,
+      "upstream_inference_prompt_cost": 0,
+      "upstream_inference_completions_cost": 0
+    }
+  },
+  "resposta": "**RAG**: RAG (Retrieval‑Augmented Generation) combina busca de informações externas com geração de texto por um modelo de linguagem, permitindo responder com base em dados atualizados.  \n\n**Solução**: A compra ocorreu há 20 dias e possui comprovante, portanto cumpre a regra de troca da loja (até 30 dias com comprovante) conforme [D1]. Os seis diagnósticos levam 6 × 15 min = 90 min, que cabe dentro dos 120 min disponíveis [D2]. Assim, os diagnósticos são concluídos a tempo. Sobre o prazo de reembolso, nenhum documento menciona um limite específico; apenas a condição de troca está descrita, então o prazo de reembolso não pode ser determinado a partir das fontes fornecidas.  \n\n**Limitação**: A informação sobre o prazo de reembolso está ausente nos documentos, impedindo uma resposta definitiva sobre esse ponto.",
+  "status": "sucesso",
+  "latencia_s": 12.54,
+  "fim_utc": "2026-09-23T01:18:53.037248+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "rodada": "20260923T011523536232Z",
+  "avaliacao": "leitura qualitativa assistida por IA, conforme critérios prévios",
+  "modelos": [
+    {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "id_resposta": "gen-1790126321-2XtGbsImjvpp2z83dWGc",
+      "notas": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "total": 5,
+      "palavras": 127
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "id_resposta": "gen-1790126125-P8BUmYHArDNRQw6vTsev",
+      "notas": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 0,
+      "palavras": 1
+    }
+  ]
+}
